@@ -14,7 +14,6 @@ Cristiano Lima Machado 9°Periodo
 
 import pandas as pd
 from collections import Counter
-import matplotlib.pyplot as plt
 
 
 file_path = '/content/netflix_titles.csv'
