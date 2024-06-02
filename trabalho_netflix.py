@@ -15,9 +15,10 @@ Cristiano Lima Machado 9°Periodo
 import pandas as pd
 from collections import Counter
 
+# URL do arquivo CSV no GitHub
+url = 'https://raw.githubusercontent.com/ElpidioTerras/Trabalho_Netflix/main/netflix_titles.csv'
 
-file_path = '/content/netflix_titles.csv'
-df = pd.read_csv(file_path)
+df = pd.read_csv(url)
 
 #print(df.head())
 #print("\nColunas do DataFrame:")
